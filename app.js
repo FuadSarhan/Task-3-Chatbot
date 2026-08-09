@@ -7,9 +7,9 @@ const micIcon = document.getElementById("micIcon");
 const chatLog = document.getElementById("chatLog");
 const statusText = document.getElementById("statusText");
 
-// عنوان الخادم الخلفي الذي يستدعي Gemini بأمان (انظر api/gemini-handler.php)
+// عنوان الخادم الخلفي الذي يستدعي Gemini بأمان (انظر gemini-handler.php)
 // مسار نسبي حتى يعمل تلقائيًا مهما كان اسم النطاق على InfinityFree
-const BACKEND_URL = "api/gemini-handler.php";
+const BACKEND_URL = "gemini-handler.php";
 
 // اللغة المستخدمة للتعرف على الصوت وللنطق
 const LANG = "ar-SA";
